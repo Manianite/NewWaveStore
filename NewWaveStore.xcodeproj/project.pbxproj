@@ -14,6 +14,7 @@
 		0FDBD2E9292BA8C70019ACFC /* NewWaveStoreTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FDBD2E8292BA8C70019ACFC /* NewWaveStoreTests.swift */; };
 		0FDBD2F3292BA8C70019ACFC /* NewWaveStoreUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FDBD2F2292BA8C70019ACFC /* NewWaveStoreUITests.swift */; };
 		0FDBD2F5292BA8C70019ACFC /* NewWaveStoreUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FDBD2F4292BA8C70019ACFC /* NewWaveStoreUITestsLaunchTests.swift */; };
+		0FDBD302292BAA990019ACFC /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FDBD301292BAA980019ACFC /* Product.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		0FDBD2EE292BA8C70019ACFC /* NewWaveStoreUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NewWaveStoreUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0FDBD2F2292BA8C70019ACFC /* NewWaveStoreUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewWaveStoreUITests.swift; sourceTree = "<group>"; };
 		0FDBD2F4292BA8C70019ACFC /* NewWaveStoreUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewWaveStoreUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		0FDBD301292BAA980019ACFC /* Product.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,8 +96,8 @@
 		0FDBD2D6292BA8C20019ACFC /* NewWaveStore */ = {
 			isa = PBXGroup;
 			children = (
-				0FDBD2D7292BA8C20019ACFC /* NewWaveStoreApp.swift */,
-				0FDBD2D9292BA8C20019ACFC /* ContentView.swift */,
+				0FDBD304292BAC710019ACFC /* Models */,
+				0FDBD303292BAC630019ACFC /* Views */,
 				0FDBD2DB292BA8C60019ACFC /* Assets.xcassets */,
 				0FDBD2DD292BA8C60019ACFC /* Preview Content */,
 			);
@@ -125,6 +127,23 @@
 				0FDBD2F4292BA8C70019ACFC /* NewWaveStoreUITestsLaunchTests.swift */,
 			);
 			path = NewWaveStoreUITests;
+			sourceTree = "<group>";
+		};
+		0FDBD303292BAC630019ACFC /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				0FDBD2D7292BA8C20019ACFC /* NewWaveStoreApp.swift */,
+				0FDBD2D9292BA8C20019ACFC /* ContentView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		0FDBD304292BAC710019ACFC /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				0FDBD301292BAA980019ACFC /* Product.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -259,6 +278,7 @@
 			files = (
 				0FDBD2DA292BA8C20019ACFC /* ContentView.swift in Sources */,
 				0FDBD2D8292BA8C20019ACFC /* NewWaveStoreApp.swift in Sources */,
+				0FDBD302292BAA990019ACFC /* Product.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
