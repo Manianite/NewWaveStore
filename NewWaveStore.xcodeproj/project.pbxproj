@@ -15,6 +15,7 @@
 		0FDBD2F3292BA8C70019ACFC /* NewWaveStoreUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FDBD2F2292BA8C70019ACFC /* NewWaveStoreUITests.swift */; };
 		0FDBD2F5292BA8C70019ACFC /* NewWaveStoreUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FDBD2F4292BA8C70019ACFC /* NewWaveStoreUITestsLaunchTests.swift */; };
 		0FDBD302292BAA990019ACFC /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FDBD301292BAA980019ACFC /* Product.swift */; };
+		0FDBD306292BB26A0019ACFC /* ProductList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FDBD305292BB26A0019ACFC /* ProductList.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +47,7 @@
 		0FDBD2F2292BA8C70019ACFC /* NewWaveStoreUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewWaveStoreUITests.swift; sourceTree = "<group>"; };
 		0FDBD2F4292BA8C70019ACFC /* NewWaveStoreUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewWaveStoreUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		0FDBD301292BAA980019ACFC /* Product.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
+		0FDBD305292BB26A0019ACFC /* ProductList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductList.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -142,6 +144,7 @@
 			isa = PBXGroup;
 			children = (
 				0FDBD301292BAA980019ACFC /* Product.swift */,
+				0FDBD305292BB26A0019ACFC /* ProductList.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -277,6 +280,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0FDBD2DA292BA8C20019ACFC /* ContentView.swift in Sources */,
+				0FDBD306292BB26A0019ACFC /* ProductList.swift in Sources */,
 				0FDBD2D8292BA8C20019ACFC /* NewWaveStoreApp.swift in Sources */,
 				0FDBD302292BAA990019ACFC /* Product.swift in Sources */,
 			);
