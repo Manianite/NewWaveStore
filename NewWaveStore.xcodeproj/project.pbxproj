@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0F38B2682936367F00196995 /* ProductListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F38B2672936367F00196995 /* ProductListView.swift */; };
+		0F38B26A29363C8800196995 /* ProductDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F38B26929363C8700196995 /* ProductDetailView.swift */; };
 		0FDBD2D8292BA8C20019ACFC /* NewWaveStoreApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FDBD2D7292BA8C20019ACFC /* NewWaveStoreApp.swift */; };
 		0FDBD2DA292BA8C20019ACFC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FDBD2D9292BA8C20019ACFC /* ContentView.swift */; };
 		0FDBD2DC292BA8C60019ACFC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0FDBD2DB292BA8C60019ACFC /* Assets.xcassets */; };
@@ -36,6 +38,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0F38B2672936367F00196995 /* ProductListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductListView.swift; sourceTree = "<group>"; };
+		0F38B26929363C8700196995 /* ProductDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductDetailView.swift; sourceTree = "<group>"; };
 		0FDBD2D4292BA8C20019ACFC /* NewWaveStore.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NewWaveStore.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0FDBD2D7292BA8C20019ACFC /* NewWaveStoreApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewWaveStoreApp.swift; sourceTree = "<group>"; };
 		0FDBD2D9292BA8C20019ACFC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -136,6 +140,8 @@
 			children = (
 				0FDBD2D7292BA8C20019ACFC /* NewWaveStoreApp.swift */,
 				0FDBD2D9292BA8C20019ACFC /* ContentView.swift */,
+				0F38B2672936367F00196995 /* ProductListView.swift */,
+				0F38B26929363C8700196995 /* ProductDetailView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -283,6 +289,8 @@
 				0FDBD306292BB26A0019ACFC /* ProductList.swift in Sources */,
 				0FDBD2D8292BA8C20019ACFC /* NewWaveStoreApp.swift in Sources */,
 				0FDBD302292BAA990019ACFC /* Product.swift in Sources */,
+				0F38B2682936367F00196995 /* ProductListView.swift in Sources */,
+				0F38B26A29363C8800196995 /* ProductDetailView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

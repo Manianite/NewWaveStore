@@ -8,9 +8,13 @@
 import SwiftUI
 
 struct ContentView: View {
+    @State var productList: ProductList = ProductList()
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        VStack {
+            List($productList.products) {
+                ProductListView(product: $0)
+            }
+        }
     }
 }
 
