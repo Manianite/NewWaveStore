@@ -8,12 +8,23 @@
 import SwiftUI
 
 struct ContentView: View {
-    @State var productList: ProductList = ProductList()
+    @EnvironmentObject var productList: ProductList
     var body: some View {
-        VStack {
-            List($productList.products) {
-                ProductListView(product: $0)
+        TabView {
+            VStack {
+                List($productList.products) {
+                    ProductListView(product: $0)
+                }
             }
+                .tabItem {
+                    Image(systemName: "house")
+                    Text("store")
+                }
+            CartView()
+                .tabItem {
+                    Image(systemName: "cart")
+                    Text("cart")
+                }
         }
     }
 }
@@ -21,5 +32,7 @@ struct ContentView: View {
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
         ContentView()
+            .environmentObject(Cart())
+            .environmentObject(ProductList())
     }
 }

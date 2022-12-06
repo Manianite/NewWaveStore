@@ -18,6 +18,9 @@
 		0FDBD2F5292BA8C70019ACFC /* NewWaveStoreUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FDBD2F4292BA8C70019ACFC /* NewWaveStoreUITestsLaunchTests.swift */; };
 		0FDBD302292BAA990019ACFC /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FDBD301292BAA980019ACFC /* Product.swift */; };
 		0FDBD306292BB26A0019ACFC /* ProductList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FDBD305292BB26A0019ACFC /* ProductList.swift */; };
+		0FF3CD77293F7DD200E3E798 /* CartItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FF3CD76293F7DD200E3E798 /* CartItemView.swift */; };
+		0FF3CD79293F7DEA00E3E798 /* CartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FF3CD78293F7DEA00E3E798 /* CartView.swift */; };
+		0FF3CD7B293F7E6700E3E798 /* Cart.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FF3CD7A293F7E6700E3E798 /* Cart.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,6 +55,9 @@
 		0FDBD2F4292BA8C70019ACFC /* NewWaveStoreUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewWaveStoreUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		0FDBD301292BAA980019ACFC /* Product.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
 		0FDBD305292BB26A0019ACFC /* ProductList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductList.swift; sourceTree = "<group>"; };
+		0FF3CD76293F7DD200E3E798 /* CartItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartItemView.swift; sourceTree = "<group>"; };
+		0FF3CD78293F7DEA00E3E798 /* CartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartView.swift; sourceTree = "<group>"; };
+		0FF3CD7A293F7E6700E3E798 /* Cart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cart.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -142,6 +148,8 @@
 				0FDBD2D9292BA8C20019ACFC /* ContentView.swift */,
 				0F38B2672936367F00196995 /* ProductListView.swift */,
 				0F38B26929363C8700196995 /* ProductDetailView.swift */,
+				0FF3CD76293F7DD200E3E798 /* CartItemView.swift */,
+				0FF3CD78293F7DEA00E3E798 /* CartView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -151,6 +159,7 @@
 			children = (
 				0FDBD301292BAA980019ACFC /* Product.swift */,
 				0FDBD305292BB26A0019ACFC /* ProductList.swift */,
+				0FF3CD7A293F7E6700E3E798 /* Cart.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -286,10 +295,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				0FDBD2DA292BA8C20019ACFC /* ContentView.swift in Sources */,
+				0FF3CD7B293F7E6700E3E798 /* Cart.swift in Sources */,
 				0FDBD306292BB26A0019ACFC /* ProductList.swift in Sources */,
 				0FDBD2D8292BA8C20019ACFC /* NewWaveStoreApp.swift in Sources */,
 				0FDBD302292BAA990019ACFC /* Product.swift in Sources */,
+				0FF3CD77293F7DD200E3E798 /* CartItemView.swift in Sources */,
 				0F38B2682936367F00196995 /* ProductListView.swift in Sources */,
+				0FF3CD79293F7DEA00E3E798 /* CartView.swift in Sources */,
 				0F38B26A29363C8800196995 /* ProductDetailView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
